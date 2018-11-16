@@ -7,6 +7,9 @@ const trim = (string) => {
   return string.toString().replace();
 }
 
+
+
+
 const subString = (value, length = 10) => {
   if (value && value != null && value.length > length) {
     return value.substring(0, length)
